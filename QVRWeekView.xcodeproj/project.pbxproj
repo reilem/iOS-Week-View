@@ -34,6 +34,7 @@
 		912D361F2170C9B600699638 /* HourLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D361E2170C9B600699638 /* HourLabel.swift */; };
 		917247262322E6D900E339DC /* EventLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917247242322E6D900E339DC /* EventLayer.swift */; };
 		917247272322E6D900E339DC /* ZoomOffsetPreservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917247252322E6D900E339DC /* ZoomOffsetPreservation.swift */; };
+		91F0092527FDAD540069A917 /* DayViewCellLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F0092427FDAD540069A917 /* DayViewCellLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		912D361E2170C9B600699638 /* HourLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourLabel.swift; sourceTree = "<group>"; };
 		917247242322E6D900E339DC /* EventLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventLayer.swift; sourceTree = "<group>"; };
 		917247252322E6D900E339DC /* ZoomOffsetPreservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomOffsetPreservation.swift; sourceTree = "<group>"; };
+		91F0092427FDAD540069A917 /* DayViewCellLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayViewCellLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 		64988F262029D68000C1A3BF /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				91F0092427FDAD540069A917 /* DayViewCellLayout.swift */,
 				917247242322E6D900E339DC /* EventLayer.swift */,
 				917247252322E6D900E339DC /* ZoomOffsetPreservation.swift */,
 				912D361E2170C9B600699638 /* HourLabel.swift */,
@@ -343,7 +346,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = "Viktor Lesyk";
 				TargetAttributes = {
 					64988F042029D66600C1A3BF = {
@@ -442,6 +445,7 @@
 				917247272322E6D900E339DC /* ZoomOffsetPreservation.swift in Sources */,
 				64988F4A2029D68000C1A3BF /* WeekView.swift in Sources */,
 				64988F432029D68000C1A3BF /* Util.swift in Sources */,
+				91F0092527FDAD540069A917 /* DayViewCellLayout.swift in Sources */,
 				64988F402029D68000C1A3BF /* DateSupport.swift in Sources */,
 				64988F422029D68000C1A3BF /* Customization.swift in Sources */,
 			);
@@ -511,6 +515,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -573,6 +578,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
